@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web API</title>
+    <script src="js/search.js" defer></script>
+    <script src="js/users.js" defer></script>
+    <script src="js/index.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Web API</h1>
+      <label for="search">Search Users: </label>
+      <input type="text" id="search" />
+      <button id="search-btn">Search</button>
+      <br />
+      <a href="create.html" style="text-decoration: none">Create User</a>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>User Name</th>
+            <th>Profile</th>
+            <th>Birth</th>
+            <th>Record</th>
+            <th>Update</th>
+            <th>Menu</th>
+          </tr>
+        </thead>
+        <tbody id="users-list"></tbody>
+      </table>
+    </main>
+  </body>
+</html>
